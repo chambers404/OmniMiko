@@ -1,0 +1,42 @@
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local config (SDK location, secrets)
+local.properties
+*.keystore
+*.jks
+keystore.properties
+
+# Signing / secrets
+secrets.properties
+*.env
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Native build
+obj/
+.cmake/
+
+# Downloaded model weights (GGUF / .task / .bin) — never commit large binaries
+*.gguf
+*.task
+*.bin
+/models/
+app/src/main/assets/models/
+
+# Logs
+*.log

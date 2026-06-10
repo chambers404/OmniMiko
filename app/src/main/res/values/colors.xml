@@ -1,0 +1,6 @@
+<resources>
+    <color name="omnimiko_background">#0E1116</color>
+    <color name="omnimiko_surface">#161A22</color>
+    <color name="omnimiko_primary">#7C5CFF</color>
+    <color name="omnimiko_on_primary">#FFFFFF</color>
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">OmniMiko</string>
+    <string name="tagline">Your local agentic orchestrator</string>
+
+    <!-- Navigation -->
+    <string name="nav_chat">Chat</string>
+    <string name="nav_conversations">History</string>
+    <string name="nav_models">Models</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Chat -->
+    <string name="chat_input_hint">Ask OmniMiko to do something…</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_stop">Stop</string>
+    <string name="chat_thinking">Thinking…</string>
+    <string name="chat_no_model">No model loaded. Open the Models tab to download one.</string>
+
+    <!-- Models -->
+    <string name="models_title">On-device models</string>
+    <string name="models_download">Download</string>
+    <string name="models_load">Load</string>
+    <string name="models_unload">Unload</string>
+    <string name="models_delete">Delete</string>
+    <string name="models_active">Active</string>
+
+    <!-- Agent foreground service -->
+    <string name="agent_service_channel">Agent tasks</string>
+    <string name="agent_service_running">OmniMiko is running a task…</string>
+</resources>
